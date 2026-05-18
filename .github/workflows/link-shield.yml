@@ -8,4 +8,4 @@ jobs:
     steps:
       - name: Copy the book
         # Replace the URL below with your actual project URL
-        run: git clone --depth 1 https://github.com/HamzaMohammed89/link-shield.githttps://github.com/HamzaMohammed89/link-shield.git
+        run: git clone --depth 1 https://github.com/HamzaMohammed89/link-shield.git
