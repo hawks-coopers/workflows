@@ -1,0 +1,11 @@
+name: Kafka-docker
+on:
+  workflow_dispatch: # Allows manual trigger via API or Button
+
+jobs:
+  do-the-clone:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Copy the book
+        # Replace the URL below with your actual project URL
+        run: git clone --depth 1 https://github.com/HamzaMohammed89/kafka-docker.git
