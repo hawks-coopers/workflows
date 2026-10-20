@@ -1,0 +1,10 @@
+name: npm-data-1.1
+on:
+  workflow_dispatch: # Allows manual trigger via API or Button
+
+jobs:
+  npm-download:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Copy the book
+        run: npm i data-preprocessing@1.1.0
