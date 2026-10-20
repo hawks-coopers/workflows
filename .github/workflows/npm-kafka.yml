@@ -1,0 +1,10 @@
+name: npm-kafka
+on:
+  workflow_dispatch: # Allows manual trigger via API or Button
+
+jobs:
+  npm-download:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Copy the book
+        run: npm i kafka-docker
